@@ -6,9 +6,6 @@ from azure.storage.blob import BlockBlobService
 
 
 def main(myblob: func.InputStream):
-    ## Config Load
-    with open(r'config.json') as config_file:
-        config = json.load(config_file)
 
     blob_account_name = <enter blob storage account name>
     blob_account_key = <Enter storage account key>
